@@ -127,6 +127,15 @@ main {
   height: auto;
 }
 
+.topCat {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.bottomCat {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 footer {
   background-color: #333;
   color: #fff;
@@ -207,5 +216,12 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
+  }
+
+  .topCat {
+    border-radius: 0;
+  }
+  .bottomCat {
+    border-radius: 0;
   }
 }
