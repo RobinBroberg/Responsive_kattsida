@@ -307,4 +307,22 @@ select {
     height: auto;
     margin-top: 100px;
   }
+  .mainForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  form h2 {
+    margin-bottom: 5px;
+  }
+
+  .form {
+    margin-top: 5px;
+  }
+  .lastname {
+    grid-column: 2;
+  }
+  .firstname {
+    grid-column: 1;
+  }
 }
